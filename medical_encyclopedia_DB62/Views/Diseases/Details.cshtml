@@ -1,0 +1,58 @@
+﻿@model medical_encyclopedia_DB62.Models.Disease
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Disease</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Disease_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disease_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disease_category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disease_category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disease_symptoms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disease_symptoms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disease1.Disease_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disease1.Disease_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Disease2.Disease_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Disease2.Disease_name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
