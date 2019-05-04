@@ -198,8 +198,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\DiseasesController.cs" />
     <Compile Include="Controllers\DoctorsController.cs" />
+    <Compile Include="Controllers\General_userController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -325,6 +327,16 @@
     <Content Include="Views\Diseases\Details.cshtml" />
     <Content Include="Views\Diseases\Edit.cshtml" />
     <Content Include="Views\Diseases\Index.cshtml" />
+    <Content Include="Views\Categories\Create.cshtml" />
+    <Content Include="Views\Categories\Delete.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\General_user\Create.cshtml" />
+    <Content Include="Views\General_user\Delete.cshtml" />
+    <Content Include="Views\General_user\Details.cshtml" />
+    <Content Include="Views\General_user\Edit.cshtml" />
+    <Content Include="Views\General_user\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
